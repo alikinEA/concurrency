@@ -8,7 +8,6 @@ import java.util.Optional;
 public interface Queue<T> {
 
     Optional<T> getAndRemove();
-
     void add(T item);
 
 }
